@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SD LLC</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .grey{
+         background-color:#CCC;
+         padding:20px;
+     }
+     .col-md-9{
+         background-color:#C999CC;
+     }
+     .col-md-2{
+         background-color:#0099CC;
+     }
+     html,body{
+         height:1500px
+     }
+    </style>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('.myTooltip').tooltip({
+                selector: '[data-toggle=tooltip]',
+                container: 'body'
+            });
+        });
+    </script>
+  </head>
+
+  <body>
+    <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+      <div class='navbar-header'>
+          <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand' href='index.html'>Mike Dong</a>
+      </div>
+      <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+              <li><a href='index.html'>Home</a></li>
+              <li><a href='blog.html'>Blog</a></li>
+              <li class='active'><a href='courses.html'>Courses</a></li>
+              <li><a href='contact.html'>Contact</a></li>
+              <li class='dropdown'>
+                 <a href='#' class='dropdown-toggle' data-toggle='dropdown' >Social<b class='caret'></b></a>
+                 <ul class='dropdown-menu'>
+                 <li><a href='http://www.facebook.com'>Facebook</a></li>
+                 <li><a href='http://www.twitter.com'>Twitter</a></li>
+                 <li><a href='https://plus.google.com'>Google+</a></li>
+                 <li><a href='http://www.linkedin.com'>Linkedin</a></li>
+                 </ul>
+              </li>
+          </ul>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <div class='intro-block'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-xs-1'>
+                    <img class='img-responsive tpad' src='images/logo.png'>
+                </div>
+                <div class='col-xs-9'>
+                    <h1>Mike Dong<span class='text-muted tpad'>&raquo;Courses</span></h1>
+                    <p class='lead'>A beginer in computer science</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Intro Info -->
+
+    <div class='container padded'>
+        <div class='row'>
+            <div class='col-lg-12'>
+                <h2>Insects</h2>
+                <hr>
+                <p>Some insect pictures</p>
+            </div>
+        </div>
+        <div class='row tpad myTooltip'>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect One' class='thumbnail'>
+                    <img src='images/insect1.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Two' class='thumbnail'>
+                    <img src='images/insect2.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Three' class='thumbnail'>
+                    <img src='images/insect3.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Four' class='thumbnail'>
+                    <img src='images/insect4.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Five' class='thumbnail'>
+                    <img src='images/insect5.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Six' class='thumbnail'>
+                    <img src='images/insect6.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Seven' class='thumbnail'>
+                    <img src='images/insect7.jpg' alt='logo'>
+                </a>
+            </div>
+            <div class='col-sm-6 col-md-3 tpad'>
+                <a href='#' data-toggle='tooltip' title data-original-title='Insect Eight' class='thumbnail'>
+                    <img src='images/insect8.jpg' alt='logo'>
+                </a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-12'>
+                <div class='panel-group' id='accordion'>
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                            <h4 class='panel-title'>
+                                <a class='accordian-toggle' data-toggle='collapse' data-parent='accordion' href='#collapseOne'>
+                                    <span class='glyphicon glyphicon-briefcase'></span>
+                                    Dragonfly
+                                </a>
+                            </h4>
+                        </div>
+                        <div id='collapseOne' class='panel-collapse collapse'>
+                            <div class='panel-body'>
+                                A dragonfly is an insect belonging to the order Odonata, the suborder Epiprocta or, in the strict sense, the infraorder Anisoptera. It is characterized by large multifaceted eyes, two pairs of strong transparent wings, and an elongated body.
+                            </div>
+                        </div>
+                    </div>
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                            <h4 class='panel-title'>
+                                <a class='accordian-toggle' data-toggle='collapse' data-parent='accordion' href='#collapseTwo'>
+                                    <span class='glyphicon glyphicon-barcode'></span>
+                                    Dragonfly
+                                </a>
+                            </h4>
+                        </div>
+                        <div id='collapseTwo' class='panel-collapse collapse'>
+                            <div class='panel-body'>
+                                A dragonfly is an insect belonging to the order Odonata, the suborder Epiprocta or, in the strict sense, the infraorder Anisoptera. It is characterized by large multifaceted eyes, two pairs of strong transparent wings, and an elongated body.
+                            </div>
+                        </div>
+                    </div>
+                    <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                            <h4 class='panel-title'>
+                                <a class='accordian-toggle' data-toggle='collapse' data-parent='accordion' href='#collapseThree'>
+                                    <span class='glyphicon glyphicon-phone'></span>
+                                    Dragonfly
+                                </a>
+                            </h4>
+                        </div>
+                        <div id='collapseThree' class='panel-collapse collapse'>
+                            <div class='panel-body'>
+                                A dragonfly is an insect belonging to the order Odonata, the suborder Epiprocta or, in the strict sense, the infraorder Anisoptera. It is characterized by large multifaceted eyes, two pairs of strong transparent wings, and an elongated body.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Some professional courses</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Content -->
+
+    <div class='info'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-6 tabbable'>
+                    <ul id='myTab' class='nav nav-tabs'>
+                        <li class='active'><a href='#android' data-toggle='tab'>Android</a></li>
+                        <li><a href='#blackberry' data-toggle='tab'>Blackberry</a></li>
+                        <li><a href='#ios' data-toggle='tab'>IOS</a></li>
+                        <li><a href='#windows' data-toggle='tab'>Windows</a></li>
+                    </ul>
+                    <div class='tab-content'>
+                        <div class='tab-pane fade in active' id='android'>
+                            <p>
+                                <img src='images/android.jpg' alt='google' class='pull-right'  height="42" width="42">
+                                Android...
+                            <span class="glyphicon glyphicon-star">
+                            <span class="glyphicon glyphicon-star">
+                            <span class="glyphicon glyphicon-star">
+                            <span class="glyphicon glyphicon-star">
+                            <span class="glyphicon glyphicon-star">
+                            </p>
+                        </div>
+                        <div class='tab-pane fade in' id='blackberry'>
+                            <p>
+                                <img src='images/blackberry.jpg' alt='blackberry' class='pull-right'  height="42" width="100">
+                                BlackBerry...
+                            </p>
+                        </div>
+                        <div class='tab-pane fade in' id='ios'>
+                            <p>
+                                <img src='images/ios.jpg' alt='apple' class='pull-right'  height="42" width="42">
+                                IOS...
+                            </p>
+                        </div>
+                        <div class='tab-pane fade in' id='windows'>
+                            <p>
+                                <img src='images/windows.jpg' alt='windows' class='pull-right'  height="42" width="142">
+                                Windows...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-sm-4 col-sm-offset-2'>
+                    <blockquote>
+                        <p>Things don't have to change the world to be important.</p>
+                        <small>Steve Jobs, <cite title='source title'>Apple inc.</cite></small>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End info panel -->
+
+    <div class='ftr'>
+        <div class='container'>
+            <div class='row'>
+                <footer>
+                    <div class='pull-left ft_space'>
+                        <address>
+                            <h3>SD LLC.</h3>
+                            779 Java Dr<br>
+                            Sunnyvalle, CA, 94086<br>
+                            <a href='http://www.gmail.com'>test@test</a><br>
+                            <abbr title='Phone'>P:</abbr>800-800-8000
+                        </address>
+                    </div>
+                    <div class='pull-right ft_space'>
+                            <img src='images/office.jpg'  class='pull-right' width='300'>
+                            <p>&copy; SD LLC 2015</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+
+  </body>
+</html>
